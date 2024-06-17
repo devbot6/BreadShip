@@ -29,6 +29,7 @@ def initBoard():
     user3, user4 = input("What row do you want for your second ship?"), input("What column do you want for your second ship?")
     guessBoard[user1][user2] = "s"
     guessBoard[user3][user4] = "s"
+    guessBoard[user3][user4+1] = "s"
 
     printBoard()
 
